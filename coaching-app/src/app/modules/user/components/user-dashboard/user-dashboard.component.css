@@ -1,0 +1,8 @@
+.user-home {
+  margin-left: 80px;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: auto;
+  z-index: 1;
+}
