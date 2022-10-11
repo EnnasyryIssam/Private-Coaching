@@ -1,0 +1,48 @@
+Objectif : 
+
+Application WEB pour offrir des services de coaching
+
+Langage : 
+ANGULAR
+
+Outil : 
+Github, word partagé, whatsApp
+
+Backlog par ordre de priorité : 
+
+Fonctionnelle : 
+
+Afficher les coachs 
+
+client :
+
+Rechercher les coachs par genre, ville
+afficher les coachs disponibles après recherche
+Choisir le programme avec le coach
+Ajouter dans son panier
+valider le programme avec le coach
+Valider le paiement
+
+Coach :
+
+Afficher les clients du coach
+consulter les  catalogues rdv
+Valider son rdv en présentiel
+
+
+Estimation des sprints prioritaires du 04/10/2022 
+
+1. Afficher les coachs : 
+Tests d’affichages et validation Client
+
+2. Choisir le programme : 
+Tests d’efficacité
+Tests de validation
+
+3. Planifier le rdv  : 
+Tests d’efficacité coté client
+
+4.Valider rendez vous avec paiement :
+Tests d’efficacité coté client
+Test de validation
+
