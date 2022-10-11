@@ -8,6 +8,8 @@ import { UserSidebarComponent } from './components/user-sidebar/user-sidebar.com
 import { UserShowCoachsComponent } from './components/user-show-coachs/user-show-coachs.component';
 import { UserSettingsComponent } from './components/user-settings/user-settings.component';
 import { UserCoachsProgramsComponent } from './components/user-coachs-programs/user-coachs-programs.component';
+import { UserCoachProgramDetailsComponent } from './components/user-coach-program-details/user-coach-program-details.component';
+import { UserCoachInfoComponent } from './components/user-coach-info/user-coach-info.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { UserCoachsProgramsComponent } from './components/user-coachs-programs/u
     UserSidebarComponent,
     UserShowCoachsComponent,
     UserSettingsComponent,
-    UserCoachsProgramsComponent
+    UserCoachsProgramsComponent,
+    UserCoachProgramDetailsComponent,
+    UserCoachInfoComponent
   ],
   imports: [
     CommonModule,
