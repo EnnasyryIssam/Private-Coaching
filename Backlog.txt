@@ -2,47 +2,75 @@ Objectif :
 
 Application WEB pour offrir des services de coaching
 
-Langage : 
-ANGULAR
+Langage et utils : 
 
-Outil : 
-Github, word partagé, whatsApp
+ANGULAR : HTML, CSS , javaSript, TypeScript
+
+
+Github, word partagé, whatsApp, Nodejs,
 
 Backlog par ordre de priorité : 
 
-Fonctionnelle : 
 
-Afficher les coachs 
+1. Afficher le programme 
 
-client :
+2. Afficher les coachs avec les informations
 
-Rechercher les coachs par genre, ville
-afficher les coachs disponibles après recherche
-Choisir le programme avec le coach
-Ajouter dans son panier
-valider le programme avec le coach
-Valider le paiement
+3. Choisir et planifier le rdv  
 
-Coach :
+4. Valider le rendez vous avec paiement
 
-Afficher les clients du coach
-consulter les  catalogues rdv
-Valider son rdv en présentiel
+5. Rechercher par programme,par prix et par notes
+
+6. Offrir une interface d'accueil qui affiche les programmes
+
+7. Ajuster le prix pour plusieurs personne
+
+8. Ajouter une page admin
+
+9. Rechercher par ville
+
+10. Ajouter un espace utilisateurs avec des identifiants
 
 
-Estimation des sprints prioritaires du 04/10/2022 
+On a commençé avec les quatres premiers sprints prioritaires du 04/10/2022 
 
-1. Afficher les coachs : 
-Tests d’affichages et validation Client
+Terminer au bout de la 3ème séance
 
-2. Choisir le programme : 
-Tests d’efficacité
-Tests de validation
+1. Afficher le programme 
 
-3. Planifier le rdv  : 
-Tests d’efficacité coté client
+2. Afficher les coachs avec les informations
 
-4.Valider rendez vous avec paiement :
-Tests d’efficacité coté client
-Test de validation
+3. Choisir et planifier le rdv  
+
+4. Valider le rendez vous avec paiement
+
+
+On a commençé avec les quatres premiers sprints prioritaires du 13/10/2022
+
+5. Rechercher par programme,par prix et par notes
+
+6. Offrir une interface d'accueil qui affiche les programmes
+
+
+
+Amélioration par rapport à l'idéee de départ :
+
+- Aucune utilistaion de base de donnée 
+
+- Sans page d'admin pour la modification parcequ'on a optimisé par rapport à l'inscrpition des coachs
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
 
