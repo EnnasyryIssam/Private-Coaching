@@ -1,6 +1,5 @@
 <section class="user-showcoachs">
   <div class="header">
-    <!-- <div class="seachbar">this is searchbar</div> -->
     <form class="flex items-center">
       <label for="simple-search" class="sr-only">Search</label>
       <div class="relative w-full">
@@ -52,8 +51,50 @@
     </form>
   </div>
   <div class="content">
+    <div class="filter row">
+      <div class="col-2">
+        <label for="sport"></label>
+        <select
+          id="sport"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        >
+          <option selected value="all">Choisir un sport</option>
+          <option value="football">football</option>
+          <option value="box">box</option>
+          <option value="fitness">fitness</option>
+          <option value="yoga">yoga</option>
+        </select>
+      </div>
+      <div class="col-2">
+        <label for="avis"></label>
+        <select
+          id="avis"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        >
+          <option selected>Choisir le nombre d'etoile</option>
+          <option value="five">5 etoiles</option>
+          <option value="foor">4 etoiles</option>
+          <option value="three">3 etoiles</option>
+        </select>
+      </div>
+
+      <div class="col-2">
+        <label for="price"></label>
+        <select
+          id="price"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        >
+          <option selected>Choisir le prix</option>
+          <option>moins de 30 euro</option>
+          <option>entre 31 et 50 euro</option>
+          <option>plus de 50 euro</option>
+        </select>
+      </div>
+    </div>
     <div class="coachs row">
-      <div class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 test">
+      <div
+        class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 foot 4-s"
+      >
         <div class="coach-img">
           <img
             src="https://blog.salonbodyfitness.com/wp-content/uploads/2019/11/shutterstock_493318507.jpg"
@@ -62,14 +103,13 @@
         </div>
         <div class="coach-info">
           <div class="coach-name">Robert</div>
-          <div class="coach-sport">competition</div>
+          <div class="coach-sport">football</div>
           <div class="coach-ratting">
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <span>(17 avis)</span>
+            <span>(10 avis)</span>
           </div>
           <div class="coach-discription">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
@@ -77,14 +117,9 @@
             asperiores...
           </div>
           <div class="coach-footer">
-            <div class="coach-price">40 euro</div>
-<<<<<<< HEAD
+            <div class="coach-price">30 euro</div>
             <div class="coach-more-info bg-primary" routerLink="../coach2-info">
               <div class="more-info-text">info</div>
-=======
-            <div class="coach-more-info bg-primary" routerLink="../coach-info">
-              <div class="more-info-text" >info</div>
->>>>>>> c578ee8d112c49d4198be5c602f97018040f92d3
               <div class="more-info-icon">
                 <i class="bx bx-info-circle"></i>
               </div>
@@ -92,7 +127,9 @@
           </div>
         </div>
       </div>
-      <div class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 test">
+      <div
+        class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 yoga 5-s"
+      >
         <div class="coach-img">
           <img
             src="https://www.votrecoachperso.fr/wp-content/uploads/renforcement-musculaire-02.jpg"
@@ -108,7 +145,7 @@
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
-            <span>(17 avis)</span>
+            <span>(21 avis)</span>
           </div>
           <div class="coach-discription">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
@@ -116,8 +153,8 @@
             asperiores...
           </div>
           <div class="coach-footer">
-            <div class="coach-price">40 euro</div>
-            <div class="coach-more-info bg-primary" routerLink="../coach-info">
+            <div class="coach-price">48 euro</div>
+            <div class="coach-more-info bg-primary">
               <div class="more-info-text">info</div>
               <div class="more-info-icon">
                 <i class="bx bx-info-circle"></i>
@@ -126,7 +163,9 @@
           </div>
         </div>
       </div>
-      <div class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 test">
+      <div
+        class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 box 4-s"
+      >
         <div class="coach-img">
           <img
             src="https://www.portail-autoentrepreneur.fr/media/knowledgebase/coach-sportif.jpg"
@@ -141,7 +180,6 @@
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
             <span>(17 avis)</span>
           </div>
           <div class="coach-discription">
@@ -150,8 +188,8 @@
             asperiores...
           </div>
           <div class="coach-footer">
-            <div class="coach-price">40 euro</div>
-            <div class="coach-more-info bg-primary" routerLink="../coach-info">
+            <div class="coach-price">55 euro</div>
+            <div class="coach-more-info bg-primary">
               <div class="more-info-text">info</div>
               <div class="more-info-icon">
                 <i class="bx bx-info-circle"></i>
@@ -160,7 +198,9 @@
           </div>
         </div>
       </div>
-      <div class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 test">
+      <div
+        class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 fitness 5-s f-5"
+      >
         <div class="coach-img">
           <img
             src="https://blog.u-formation.fr/wp-content/uploads/2020/11/lieux-coach-sportif.jpg"
@@ -184,8 +224,8 @@
             asperiores...
           </div>
           <div class="coach-footer">
-            <div class="coach-price">40 euro</div>
-            <div class="coach-more-info bg-primary" routerLink="../coach-info">
+            <div class="coach-price">37 euro</div>
+            <div class="coach-more-info bg-primary">
               <div class="more-info-text">info</div>
               <div class="more-info-icon">
                 <i class="bx bx-info-circle"></i>
@@ -194,7 +234,9 @@
           </div>
         </div>
       </div>
-      <div class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 test">
+      <div
+        class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 fitness 4-s f-4"
+      >
         <div class="coach-img">
           <img
             src="https://www.ecoledassas.com/wp-content/uploads/2018/06/coach-sportif.jpg"
@@ -209,6 +251,40 @@
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
+            <span>(17 avis)</span>
+          </div>
+          <div class="coach-discription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+            fugiat veritatis officiis! Unde aliquam numquam molestias vel quo
+            asperiores...
+          </div>
+          <div class="coach-footer">
+            <div class="coach-price">41 euro</div>
+            <div class="coach-more-info bg-primary">
+              <div class="more-info-text">info</div>
+              <div class="more-info-icon">
+                <i class="bx bx-info-circle"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 fitness 4-s f-4"
+      >
+        <div class="coach-img">
+          <img
+            src="https://www.ecoledassas.com/wp-content/uploads/2018/06/coach-sportif.jpg"
+            alt=""
+          />
+        </div>
+        <div class="coach-info">
+          <div class="coach-name">Jhon</div>
+          <div class="coach-sport">fitness</div>
+          <div class="coach-ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
             <span>(17 avis)</span>
           </div>
@@ -218,8 +294,8 @@
             asperiores...
           </div>
           <div class="coach-footer">
-            <div class="coach-price">40 euro</div>
-            <div class="coach-more-info bg-primary" routerLink="../coach-info">
+            <div class="coach-price">41 euro</div>
+            <div class="coach-more-info bg-primary">
               <div class="more-info-text">info</div>
               <div class="more-info-icon">
                 <i class="bx bx-info-circle"></i>

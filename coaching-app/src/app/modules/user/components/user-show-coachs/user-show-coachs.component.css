@@ -1,6 +1,12 @@
 .user-showcoachs {
   padding: 10px;
 }
+.filter{
+  margin: 15px 0;
+}
+.filter div{
+  margin-right: 10px;
+}
 .coach-card {
   background-color: aliceblue;
   background-clip: padding-box;
