@@ -2,40 +2,45 @@ Objectif :
 
 Application WEB pour offrir des services de coaching
 
-Langage et utils : 
+Langage et outils : 
 
-ANGULAR : HTML, CSS , javaSript, TypeScript
+ANGULAR : HTML, CSS , javaSript, jquery
 
 
-Github, word partagé, whatsApp, Nodejs,
+Github, word partagé,
 
 Backlog par ordre de priorité : 
 
+0. S'authentifier
 
-1. Afficher le programme 
+1. Afficher les programmes sportifs
 
-2. Afficher les coachs avec les informations
+2. Afficher les coachs avec leurs informations
 
 3. Choisir et planifier le rdv  
 
 4. Valider le rendez vous avec paiement
 
-5. Rechercher par programme,par prix et par notes
+5. Rechercher par sport,par prix et par notes
 
 6. Offrir une interface d'accueil qui affiche les programmes
 
 7. Ajuster le prix pour plusieurs personne
 
-8. Ajouter une page admin
+8. Ajouter le dashboard admin
 
-9. Rechercher par ville
+9. Ajouter le dashboard coach
 
-10. Ajouter un espace utilisateurs avec des identifiants
+10. Rechercher par ville
+
+11. Ajouter un espace utilisateurs avec des identifiants
 
 
 On a commençé avec les quatres premiers sprints prioritaires du 04/10/2022 
 
 Terminer au bout de la 3ème séance
+
+0. L'authentification
 
 1. Afficher le programme 
 
