@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 img{
     border-radius: 50%;
     padding: 15px;
@@ -9,7 +8,7 @@ img{
 .profile{
     display: inline-flex;
 }
->>>>>>> c578ee8d112c49d4198be5c602f97018040f92d3
+
 .reservation-content,
 .reservation-verification {
   padding: 20px;
@@ -41,8 +40,4 @@ img{
   display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> c578ee8d112c49d4198be5c602f97018040f92d3
