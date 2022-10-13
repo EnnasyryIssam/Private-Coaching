@@ -1,0 +1,32 @@
+.reservation-content,
+.reservation-verification {
+  padding: 20px;
+  background-color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  padding: 5px;
+  background-color: #1c64f2;
+  margin-bottom: 10px;
+  color: white;
+}
+.input {
+  margin-bottom: 10px;
+}
+.input p {
+  margin-bottom: 10px;
+}
+.price {
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  color: #1c64f2;
+}
+.reservation-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

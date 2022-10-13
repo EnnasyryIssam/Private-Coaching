@@ -10,6 +10,10 @@ import { UserSettingsComponent } from './components/user-settings/user-settings.
 import { UserCoachsProgramsComponent } from './components/user-coachs-programs/user-coachs-programs.component';
 import { UserCoachProgramDetailsComponent } from './components/user-coach-program-details/user-coach-program-details.component';
 import { UserCoachInfoComponent } from './components/user-coach-info/user-coach-info.component';
+import { UserSecondCoachInfoComponent } from './components/user-second-coach-info/user-second-coach-info.component';
+import { UserOneSportCoachsComponent } from './components/user-one-sport-coachs/user-one-sport-coachs.component';
+import { UserCoachPaymentComponent } from './components/user-coach-payment/user-coach-payment.component';
+import { UserPaymentValidationComponent } from './components/user-payment-validation/user-payment-validation.component';
 
 
 @NgModule({
@@ -21,7 +25,11 @@ import { UserCoachInfoComponent } from './components/user-coach-info/user-coach-
     UserSettingsComponent,
     UserCoachsProgramsComponent,
     UserCoachProgramDetailsComponent,
-    UserCoachInfoComponent
+    UserCoachInfoComponent,
+    UserSecondCoachInfoComponent,
+    UserOneSportCoachsComponent,
+    UserCoachPaymentComponent,
+    UserPaymentValidationComponent
   ],
   imports: [
     CommonModule,
