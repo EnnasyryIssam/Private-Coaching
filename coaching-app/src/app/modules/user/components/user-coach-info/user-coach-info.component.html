@@ -1,7 +1,40 @@
-<section>
-  <div class="container row">
+<div class="container">
+  <div class="content row">
     <div class="col-8">
-      <div class="coach-img">this is image</div>
+      <div class="profile">
+        <img
+          src="https://blog.salonbodyfitness.com/wp-content/uploads/2019/11/shutterstock_493318507.jpg"
+          title="Robert"
+          alt=""
+        />
+        <div style="padding-top: 20px; padding-left: 10px">
+          <strong style="font-size: 30px">Christophe</strong>
+        </div>
+      </div>
+      <div style="padding: 15px">
+        <div style="padding-bottom: 10px">
+          <p style="font-size: 15; color: blue">
+            <strong>Son expérience de Coach :</strong>
+          </p>
+          <p>
+            5 Ans de coaching en tout ce qui concerne préparations aux
+            compétitions
+          </p>
+        </div>
+        <div style="padding-bottom: 10px">
+          <p style="font-size: 15; color: blue">
+            <strong>Spécialité :</strong>
+          </p>
+          <p>
+            <strong style="color: blue"> - </strong>
+            donner un cours en langue étrangère
+          </p>
+          <p>
+            <strong style="color: blue"> - </strong>
+            exercer pour des groupes ou des clients individuels.
+          </p>
+        </div>
+      </div>
     </div>
     <div class="col-4">
       <div class="reservation-content">
@@ -18,14 +51,28 @@
             <option value="FR">plus de 3</option>
           </select>
         </div>
+        <p>Choisir une date</p>
+        <div
+          id="date"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        >
+          <input
+            type="date"
+            id="start"
+            name="trip-start"
+            value="2022-10-13"
+            min="2022-10-13"
+            max="2023-10-13"
+          />
+        </div>
         <div class="price">50 euro</div>
         <div class="reservation-btn">
           <button
             routerLink="../user-payment"
             type="submit"
-            class=" text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
           >
-            payer maintenant
+            Reserver maintenant
           </button>
         </div>
       </div>
@@ -33,17 +80,11 @@
       <div class="reservation-verification">
         <div class="title">Verification</div>
         <div class="verification-content">
-          <div>
-            <i class='bx bx-check'></i> Par adresse mail
-          </div>
-          <div>
-            <i class='bx bx-check'></i> Par Numéro de portable
-          </div>
-          <div>
-            <i class='bx bx-check'></i> Par SMS
-          </div>
+          <div><i class="bx bx-check"></i> Par adresse mail</div>
+          <div><i class="bx bx-check"></i> Par Numéro de portable</div>
+          <div><i class="bx bx-check"></i> Par SMS</div>
         </div>
       </div>
     </div>
   </div>
-</section>
+</div>

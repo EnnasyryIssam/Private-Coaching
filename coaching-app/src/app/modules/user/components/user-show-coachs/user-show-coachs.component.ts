@@ -60,14 +60,6 @@ export class UserShowCoachsComponent implements OnInit {
     });
 
     $('#avis').change(function () {
-      // if ($(this).val() == 'five') {
-      //   $('.4-s').hide();
-      //   $('.5-s').show();
-      // }
-      // if ($(this).val() == 'foor') {
-      //   $('.5-s').hide();
-      //   $('.4-s').show();
-      // }
       if ($(this).val() == 'foor' && $('.coach-card').hasClass('f-4')) {
         $('.foot').hide();
         $('.box').hide();
@@ -83,6 +75,39 @@ export class UserShowCoachsComponent implements OnInit {
 
         $('.f-4').hide();
         $('.f-5').show();
+      }
+
+      if ($(this).val() == 'three') {
+        $('.foot').hide();
+        $('.box').hide();
+        $('.fitness').hide();
+        $('.yoga').hide();
+      }
+    });
+
+    $('#price').change(function () {
+      if ($(this).val() == 'moins-3') {
+        $('.foot').hide();
+        $('.box').hide();
+        $('.yoga').hide();
+
+        $('.p-3').hide();
+        $('.m-3').show();
+      }
+      if ($(this).val() == 'entre-4-5') {
+        $('.foot').hide();
+        $('.box').hide();
+        $('.yoga').hide();
+
+        $('.p-3').show();
+        $('.m-3').hide();
+      }
+
+      if ($(this).val() == 'all-stars') {
+        $('.fitness').show();
+        $('.foot').show();
+        $('.box').show();
+        $('.yoga').show();
       }
     });
   }

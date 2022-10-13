@@ -8,6 +8,7 @@ img{
 .profile{
     display: inline-flex;
 }
+
 .reservation-content,
 .reservation-verification {
   padding: 20px;
@@ -40,3 +41,4 @@ img{
   align-items: center;
   justify-content: center;
 }
+

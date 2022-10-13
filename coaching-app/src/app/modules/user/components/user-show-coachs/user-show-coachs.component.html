@@ -1,4 +1,4 @@
-<section class="user-showcoachs">
+<div class="user-showcoachs">
   <div class="header">
     <form class="flex items-center">
       <label for="simple-search" class="sr-only">Search</label>
@@ -71,7 +71,7 @@
           id="avis"
           class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
         >
-          <option selected>Choisir le nombre d'etoile</option>
+          <option selected value="all-stars">Choisir le nombre d'etoile</option>
           <option value="five">5 etoiles</option>
           <option value="foor">4 etoiles</option>
           <option value="three">3 etoiles</option>
@@ -85,9 +85,9 @@
           class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
         >
           <option selected>Choisir le prix</option>
-          <option>moins de 30 euro</option>
-          <option>entre 31 et 50 euro</option>
-          <option>plus de 50 euro</option>
+          <option value="moins-3">moins de 30 euro</option>
+          <option value="entre-3-5">entre 31 et 50 euro</option>
+          <option value="plus-5">plus de 50 euro</option>
         </select>
       </div>
     </div>
@@ -97,7 +97,7 @@
       >
         <div class="coach-img">
           <img
-            src="https://blog.salonbodyfitness.com/wp-content/uploads/2019/11/shutterstock_493318507.jpg"
+            src="https://media.istockphoto.com/photos/football-coach-coaching-children-soccer-football-training-session-for-picture-id1148407859?k=20&m=1148407859&s=612x612&w=0&h=bosDKk5v7YgLOHzRHIPndc-YqE8qQ6Vhwxk9xactPvE="
             alt=""
           />
         </div>
@@ -117,8 +117,9 @@
             asperiores...
           </div>
           <div class="coach-footer">
-            <div class="coach-price">30 euro</div>
-            <div class="coach-more-info bg-primary" routerLink="../coach2-info">
+            <div class="coach-price">29 euro</div>
+
+            <div class="coach-more-info bg-primary" routerLink="../coach-info">
               <div class="more-info-text">info</div>
               <div class="more-info-icon">
                 <i class="bx bx-info-circle"></i>
@@ -154,6 +155,7 @@
           </div>
           <div class="coach-footer">
             <div class="coach-price">48 euro</div>
+
             <div class="coach-more-info bg-primary">
               <div class="more-info-text">info</div>
               <div class="more-info-icon">
@@ -189,6 +191,7 @@
           </div>
           <div class="coach-footer">
             <div class="coach-price">55 euro</div>
+
             <div class="coach-more-info bg-primary">
               <div class="more-info-text">info</div>
               <div class="more-info-icon">
@@ -225,6 +228,7 @@
           </div>
           <div class="coach-footer">
             <div class="coach-price">37 euro</div>
+
             <div class="coach-more-info bg-primary">
               <div class="more-info-text">info</div>
               <div class="more-info-icon">
@@ -235,7 +239,7 @@
         </div>
       </div>
       <div
-        class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 fitness 4-s f-4"
+        class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 fitness 4-s f-4 p-3"
       >
         <div class="coach-img">
           <img
@@ -270,11 +274,11 @@
         </div>
       </div>
       <div
-        class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 fitness 4-s f-4"
+        class="coach-card col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 fitness 4-s f-4 m-3"
       >
         <div class="coach-img">
           <img
-            src="https://www.ecoledassas.com/wp-content/uploads/2018/06/coach-sportif.jpg"
+            src="https://media.istockphoto.com/photos/fitness-trainer-at-gym-picture-id1072395722?k=20&m=1072395722&s=612x612&w=0&h=zhxJbv4VDqOqt5JwXI7CgZ0CXfXtagmdtF2mSITW0eo="
             alt=""
           />
         </div>
@@ -294,7 +298,7 @@
             asperiores...
           </div>
           <div class="coach-footer">
-            <div class="coach-price">41 euro</div>
+            <div class="coach-price">25 euro</div>
             <div class="coach-more-info bg-primary">
               <div class="more-info-text">info</div>
               <div class="more-info-icon">
@@ -306,4 +310,4 @@
       </div>
     </div>
   </div>
-</section>
+</div>
